@@ -26,7 +26,7 @@ const MainChat = ({ inputText, setInputText, handleApiRequest, chats }) => {
             ))}
           </div>
         ) : (
-          <p className="text-[20px] font-semibold text-primary__color">
+          <p className="text-[12px] font-semibold text-primary__color md:text-[20px]">
             "Please create a new chat to access LongShot AI"
           </p>
         )}
