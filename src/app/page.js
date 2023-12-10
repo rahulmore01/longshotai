@@ -8,10 +8,11 @@ export default function Home() {
       <ChatProvider>
         <nav className="fixed h-16 w-screen bg-bg__color   flex justify-end items-center z-10">
           <Image
-            src="/ls.png "
-            width={160}
+            src="/lslong.png "
             height={60}
+            width={160}
             className="pr-10"
+            alt="logo"
           ></Image>
         </nav>
 
